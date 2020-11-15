@@ -50,7 +50,7 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
-    },
+    }},
   generate: {
       async routes() {
         const paths = [];
@@ -63,5 +63,3 @@ export default {
       }
     }
   }
-  }
-
